@@ -26,7 +26,7 @@ int main()
 	
     fo(i,q)
     {
-		//cout<<"Case #"<<i+1<<": ";
+		cout<<"Case #"<<i+1<<": ";
         int n; cin >> n
         solve(n);
     }
