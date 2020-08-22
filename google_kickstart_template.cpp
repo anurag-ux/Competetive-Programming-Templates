@@ -13,26 +13,27 @@ using namespace std;
 
 #define MAX 1000000007
 #define fo(i,x) for(int i=0;i<x;i++)
+#define ll long long int
 
-void solve(int n);
+void solve(ll n);
 
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr); cout.tie(nullptr);
 
-    int q;
-    cin >> q;
+    ll t;
+    cin >> t;
 	
-    fo(i,q)
+    fo(i,t)
     {
-		cout<<"Case #"<<i+1<<": ";
-        int n; cin >> n
+	cout<<"Case #"<<i+1<<": ";
+        ll n; cin >> n
         solve(n);
     }
 }
 
-void solve(int n)
+void solve(ll n)
 {
 	
 }
