@@ -1,13 +1,4 @@
 #include <bits/stdc++.h>
-#include <iostream>
-#include <bitset>
-#include <limits>
-#include <cmath>
-#include <vector>
-#include <cstdlib>
-#include <string>
-#include <algorithm>
-#include <stack>
 
 using namespace std;
 
@@ -28,7 +19,7 @@ int main()
     fo(i,t)
     {
 	cout<<"Case #"<<i+1<<": ";
-        ll n; cin >> n
+        ll n; cin >> n;
         solve(n);
     }
 }
