@@ -5,6 +5,7 @@ using namespace std;
 #define MAX 1000000007
 #define fo(i,x) for(int i=0;i<x;i++)
 #define ll long long int
+#define inp(n) vector<ll> a (n); fo(i,n) cin>>a[i];
 
 void solve(ll n);
 
@@ -26,5 +27,7 @@ int main()
 
 void solve(ll n)
 {
-	
+	inp(n);
+	fo(i,n)
+	cout<<a[i]<<" ";
 }
