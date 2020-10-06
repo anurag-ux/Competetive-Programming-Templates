@@ -11,10 +11,10 @@ using namespace std;
 #define addEdgeDirect(adj,u,v){adj[u].push_back(v);}
 #define addEdgeUnDirect(adj,u,v){adj[u].push_back(v); adj[v].push_back(u);}
 #define Prime(n){vector<int> primes; SieveOfEratosthenes(primes); return primes[n];}
-#define Case() ll t; cin >> t; fo(i,t){ cout<<"Case #"<<i+1<<": ";ll n; cin >> n;solve(n);}
+#define Case() ll t; cin >> t; fo(i,t){ cout<<"Case #"<<i+1<<": ";solve();}
 #define io() ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
 
-void solve(ll n);
+void solve();
 void SieveOfEratosthenes(vector<int> &primes);
 
 int main()
@@ -22,7 +22,7 @@ int main()
 	io(); Case();
 }
 
-void solve(ll n)
+void solve()
 {
 	
 }
